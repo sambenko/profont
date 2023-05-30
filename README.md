@@ -1,4 +1,16 @@
+# :warning: DISCLAIMER :warning:
+
+This is a forked repository with fixes for new [embedded-graphics] 0.8.0 crate. 
+This is for my personal use, but I thought I would share it until it gets fixed upstream.
+
+If you want to use it, add this line to your Cargo.toml:
+
+    profont = { version = "0.6.1", git = "https://github.com/sambenko/profont.git", branch = "embedded-graphics-0.8.0-fixes" }
+    
+##
+
 # ProFont
+
 
 [The ProFont monospace font][profont] for use with the [embedded-graphics] crate.
 
